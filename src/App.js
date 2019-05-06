@@ -2,6 +2,7 @@ import React from 'react';
 //import Pokedex from './Pokedex';
 import Pokegame from './Pokegame';
 import Brokenclick from './Brokenclick';
+import Casuallink from './Casuallink';
 import './App.css';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
       <Pokegame />
       <Brokenclick />
+      <Casuallink />
     </div>
   );
 }
